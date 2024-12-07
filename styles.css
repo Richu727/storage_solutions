@@ -1,0 +1,20 @@
+.container{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    background-image: url('images/JJK 5k.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.text-box{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(100%-40px);
+    max-width: 260px;
+}
