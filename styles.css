@@ -60,6 +60,24 @@
     color: #FF8400;
   }
 
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    color: #ff8400;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+
   nav {
     display: flex;
   }
@@ -90,4 +108,23 @@ nav a {
 nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
+}
+
+.cta-button {
+  max-width: 200px;
+  display: flex;
+  background-color: #717878;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.cta-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
