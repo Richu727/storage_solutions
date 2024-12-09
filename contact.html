@@ -28,6 +28,34 @@
             <p>Input your name and email and I will contact you for help to get a quote.</p>
             
         </section>
+
+        <section id="contact">
+            <form id="dataForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone (optional):</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div id="successCard">
+                <div class="success-message">Success!</div>
+                <div class="success-description">Your information has been submitted successfully.</div>
+            </div>
+
+            <div id="status"></div>
+        </section>
     </main>
 
     <footer>

@@ -170,3 +170,81 @@ nav a:hover {
   color: #ffc68a;
   line-height: 1.6;
 }
+
+#dataForm, #successCard {
+  background-color: #353939;
+  padding: 20px; /* Padding inside the form */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Form takes 90% of the screen */
+  max-width: 500px; /* Do not allow it to be larger than 500px */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin: 20px auto; /* Center the form on the page */
+}
+
+.form-group {
+  width: 100%; /* This ensures the form-group spans 100% of the form width */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffc68a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 10px; 
+  width: 100%;
+  border: 1px solid #717878;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #242626;
+  color: #ff8400;
+}
+
+input[type="submit"] {
+  background-color: #ff8400;
+  color: #353939;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Button takes up the full width of its container */
+  max-width: 200px; /* Limit the max width of the button */
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffc68a;
+}
+
+#status {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+#successCard {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+
+.success-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.success-description {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
