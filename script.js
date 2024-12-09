@@ -10,9 +10,8 @@ document.getElementById('dataForm').addEventListener('submit', function(e) {
   
   const data = { name, email, phone };
   
-  fetch('YOUR_APPS_SCRIPT_URL', {
+  fetch('https://script.google.com/macros/s/AKfycbyppjZXOCJm7-8IThHzRedkrRc_43XtTZHdByEJ0kiyQbzEAbE2JgvOCwFKNxVVYWvW/exec', {
     method: 'POST',
-    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json'
     },
