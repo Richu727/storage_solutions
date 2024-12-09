@@ -128,3 +128,45 @@ nav a:hover {
   justify-content: center;
   margin-top: 50px;
 }
+
+#about {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.card {
+  display: flex; 
+  align-items: center; 
+  background-color: #353939;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px; 
+  overflow: hidden; 
+}
+
+.card img {
+  width: 40%; 
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover; 
+}
+
+.card-content {
+  width: 60%; 
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #ff8400;
+}
+
+.card-content p {
+  font-size: 1.1rem; 
+  color: #ffc68a;
+  line-height: 1.6;
+}
