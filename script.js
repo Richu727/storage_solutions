@@ -11,7 +11,7 @@ document.getElementById('dataForm').addEventListener('submit', function(e) {
       phone: phone
     };
   
-    fetch('https://script.google.com/macros/s/AKfycbw-3lHjdla52XBBqCN8aFVWbKx0L9shnxo4670LRoA/dev', {
+    fetch('https://script.google.com/macros/s/AKfycbwIUqyPL6H9a97Bau_lIXxlB18SIA5r8l-CDzOUq1tSHM3KN6mhg6y3CJuXLOjQ66Ml/exec', {
       method: 'POST',
       mode: 'no-cors',
       headers: {
